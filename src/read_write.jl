@@ -1,5 +1,7 @@
 export fasta2matrix, map_gaps
 
+stupid() = 2
+
 """
   function fasta2matrix(filename::AbstractString; max_gap_fraction = 1)
 
