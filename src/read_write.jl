@@ -1,6 +1,6 @@
 export fasta2matrix, map_gaps, stupid, stupid2
 
-stupid() = 4
+stupid() = 7
 stupid2() = 5
 
 """
