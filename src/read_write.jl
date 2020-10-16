@@ -81,5 +81,26 @@ let alphabet = [ 1, 21, 2, 3, 4, 5, 6, 7, 8, 21, 9, 10, 11, 12, 21, 13, 14, 15, 
         i = UInt8(c) - 0x40
         1 <= i <= 25 && return alphabet[i]
         return 21
-    end
+     end
+end
+
+
+
+"""
+        function map_gaps(matrix)
+        
+        Returns a matrix with 21's instead of 0's,
+        to change between different mappings.        
+
+"""
+
+function map_gaps(matrix)
+        for i in 1:size(matrix)[1]
+		for j in 1:size(matrix)[2]
+			if (matrix[i, j] == 0) 
+				matrix[i, j] = 21
+			end
+		end
+	end
+	return matrix
 end
