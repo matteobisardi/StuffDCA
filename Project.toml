@@ -1,0 +1,7 @@
+name = "StuffDCA"
+uuid = "9f44d9a0-617d-492f-9e56-e38344f73ed6"
+authors = ["bisardi "]
+version = "0.1.0"
+
+[deps]
+FastaIO = "a0c94c4b-ebed-5953-b5fc-82fe598ac79f"

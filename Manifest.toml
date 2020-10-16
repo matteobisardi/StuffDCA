@@ -1,0 +1,16 @@
+# This file is machine-generated - editing it directly is not advised
+
+[[FastaIO]]
+deps = ["GZip"]
+git-tree-sha1 = "1656782ed1b7c3643c5196aadf8e5107569daaa0"
+uuid = "a0c94c4b-ebed-5953-b5fc-82fe598ac79f"
+version = "1.0.0"
+
+[[GZip]]
+deps = ["Libdl"]
+git-tree-sha1 = "039be665faf0b8ae36e089cd694233f5dee3f7d6"
+uuid = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
+version = "0.5.1"
+
+[[Libdl]]
+uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
