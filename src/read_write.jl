@@ -1,4 +1,4 @@
-export fasta2matrix
+export fasta2matrix, map_gaps
 
 """
   function fasta2matrix(filename::AbstractString; max_gap_fraction = 1)
