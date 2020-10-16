@@ -1,4 +1,4 @@
-export fasta2matrix, map_gaps
+export fasta2matrix, map_gaps, stupid
 
 stupid() = 2
 
