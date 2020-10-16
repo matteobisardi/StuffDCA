@@ -1,6 +1,7 @@
-export fasta2matrix, map_gaps, stupid
+export fasta2matrix, map_gaps, stupid, stupid2
 
 stupid() = 4
+stupid2() = 5
 
 """
   function fasta2matrix(filename::AbstractString; max_gap_fraction = 1)
