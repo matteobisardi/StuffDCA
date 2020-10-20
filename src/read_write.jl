@@ -1,4 +1,4 @@
-export fasta2matrix, map_gaps, stupid, stupid2
+export fasta2matrix, map_gaps, read_par_BM, stupid, stupid2
 
 stupid() = 8
 stupid2() = 5
